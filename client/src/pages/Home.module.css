@@ -1,0 +1,120 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  background: #fff;
+  border-bottom: 1px solid #e8e8e8;
+  padding: 24px;
+  text-align: center;
+}
+
+.title {
+  color: #1a1a2e;
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.subtitle {
+  color: #666;
+  font-size: 0.9375rem;
+  margin: 8px auto 0;
+  max-width: 560px;
+}
+
+.main {
+  flex: 1;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 24px;
+  width: 100%;
+}
+
+.section {
+  margin-bottom: 32px;
+}
+
+.section:last-child {
+  margin-bottom: 0;
+}
+
+.sectionTitle {
+  border-left: 4px solid #2563eb;
+  color: #333;
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin: 0 0 16px;
+  padding-left: 12px;
+}
+
+.grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.globalLoading {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: center;
+  min-height: 320px;
+  padding: 48px 24px;
+}
+
+.spinner {
+  animation: spin 0.8s linear infinite;
+  border: 3px solid #e8e8e8;
+  border-radius: 50%;
+  border-top-color: #2563eb;
+  height: 40px;
+  width: 40px;
+}
+
+.globalLoadingText {
+  color: #666;
+  font-size: 0.9375rem;
+  margin: 0;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.footer {
+  background: #f8f9fa;
+  border-top: 1px solid #e8e8e8;
+  color: #888;
+  font-size: 0.8125rem;
+  line-height: 1.6;
+  padding: 24px;
+  text-align: center;
+}
+
+.footer p {
+  margin: 0 0 8px;
+}
+
+.footer p:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .header {
+    padding: 20px 16px;
+  }
+
+  .main {
+    padding: 16px;
+  }
+}
