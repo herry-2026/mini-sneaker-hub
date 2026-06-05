@@ -1,13 +1,12 @@
 import { useCallback, useEffect, useState } from 'react';
+import { fetchAllHot, fetchHotBySource } from '../api/hot';
 import HotCard from '../components/HotCard';
-import mockData from '../mock/hot.json';
 import type { HotPlatform } from '../types/hot';
 import styles from './Home.module.css';
 
 const DOMESTIC_SOURCES = ['shihuo', 'dewu', 'hupu'];
 const OVERSEAS_SOURCES = ['sneakernews', 'hypebeast', 'nicekicks'];
 const ALL_SOURCES = [...DOMESTIC_SOURCES, ...OVERSEAS_SOURCES];
-const LOAD_DELAY_MS = 500;
 
 interface PlatformCardState {
   loading: boolean;
@@ -15,21 +14,32 @@ interface PlatformCardState {
   platform: HotPlatform;
 }
 
-const mockPlatforms = mockData as HotPlatform[];
-
-function getMockPlatform(source: string): HotPlatform | undefined {
-  return mockPlatforms.find((p) => p.source === source);
-}
+const PLATFORM_META: Record<
+  string,
+  Pick<HotPlatform, 'source' | 'sourceName' | 'listName'>
+> = {
+  shihuo: { source: 'shihuo', sourceName: '识货', listName: '热门球鞋榜' },
+  dewu: { source: 'dewu', sourceName: '得物', listName: '本周流行' },
+  hupu: { source: 'hupu', sourceName: '虎扑', listName: '装备区热帖' },
+  sneakernews: {
+    source: 'sneakernews',
+    sourceName: 'Sneaker News',
+    listName: 'Latest News',
+  },
+  hypebeast: { source: 'hypebeast', sourceName: 'Hypebeast', listName: 'Footwear' },
+  nicekicks: {
+    source: 'nicekicks',
+    sourceName: 'Nice Kicks',
+    listName: 'Top Stories',
+  },
+};
 
 function createPlaceholderPlatform(source: string): HotPlatform {
-  const found = getMockPlatform(source);
-  if (found) {
-    return { ...found, items: [] };
-  }
+  const meta = PLATFORM_META[source];
   return {
     source,
-    sourceName: source,
-    listName: '',
+    sourceName: meta?.sourceName ?? source,
+    listName: meta?.listName ?? '',
     updatedAt: new Date().toISOString(),
     items: [],
   };
@@ -48,32 +58,103 @@ function createInitialStates(): Record<string, PlatformCardState> {
   );
 }
 
-function delay(ms: number): Promise<void> {
-  return new Promise((resolve) => {
-    setTimeout(resolve, ms);
-  });
-}
-
-async function fetchPlatformData(source: string): Promise<HotPlatform> {
-  await delay(LOAD_DELAY_MS);
-  const platform = getMockPlatform(source);
+function toCardState(platform: HotPlatform | undefined, fallback: HotPlatform): PlatformCardState {
   if (!platform) {
-    throw new Error('数据获取失败，请稍后重试');
+    return {
+      loading: false,
+      error: true,
+      platform: {
+        ...fallback,
+        items: [],
+        message: '数据获取失败，请稍后重试',
+      },
+    };
   }
+
   if (platform.error) {
-    throw new Error(platform.message ?? '数据获取失败，请稍后重试');
+    return {
+      loading: false,
+      error: true,
+      platform: {
+        ...platform,
+        items: [],
+        message: platform.message ?? '数据获取失败，请稍后重试',
+      },
+    };
   }
-  return platform;
+
+  return {
+    loading: false,
+    error: false,
+    platform,
+  };
 }
 
 function useHotPlatforms() {
   const [platformStates, setPlatformStates] = useState(createInitialStates);
 
+  const applyPlatforms = useCallback((platforms: HotPlatform[]) => {
+    setPlatformStates((prev) =>
+      Object.fromEntries(
+        ALL_SOURCES.map((source) => [
+          source,
+          toCardState(
+            platforms.find((p) => p.source === source),
+            prev[source].platform,
+          ),
+        ]),
+      ),
+    );
+  }, []);
+
+  const setAllLoading = useCallback(() => {
+    setPlatformStates((prev) =>
+      Object.fromEntries(
+        ALL_SOURCES.map((source) => [
+          source,
+          {
+            loading: true,
+            error: false,
+            platform: {
+              ...prev[source].platform,
+              items: [],
+              message: undefined,
+            },
+          },
+        ]),
+      ),
+    );
+  }, []);
+
+  const loadAll = useCallback(async () => {
+    setAllLoading();
+    try {
+      const data = await fetchAllHot();
+      applyPlatforms(data);
+    } catch {
+      setPlatformStates((prev) =>
+        Object.fromEntries(
+          ALL_SOURCES.map((source) => [
+            source,
+            {
+              loading: false,
+              error: true,
+              platform: {
+                ...prev[source].platform,
+                items: [],
+                message: '数据获取失败，请稍后重试',
+              },
+            },
+          ]),
+        ),
+      );
+    }
+  }, [applyPlatforms, setAllLoading]);
+
   const loadPlatform = useCallback(async (source: string) => {
     setPlatformStates((prev) => ({
       ...prev,
       [source]: {
-        ...prev[source],
         loading: true,
         error: false,
         platform: {
@@ -85,10 +166,10 @@ function useHotPlatforms() {
     }));
 
     try {
-      const platform = await fetchPlatformData(source);
+      const platform = await fetchHotBySource(source);
       setPlatformStates((prev) => ({
         ...prev,
-        [source]: { loading: false, error: false, platform },
+        [source]: toCardState(platform, prev[source].platform),
       }));
     } catch {
       setPlatformStates((prev) => ({
@@ -105,10 +186,6 @@ function useHotPlatforms() {
       }));
     }
   }, []);
-
-  const loadAll = useCallback(async () => {
-    await Promise.all(ALL_SOURCES.map((source) => loadPlatform(source)));
-  }, [loadPlatform]);
 
   useEffect(() => {
     loadAll();

@@ -3,6 +3,8 @@ import styles from './HotCard.module.css';
 
 interface HotCardProps {
   platform: HotPlatform;
+  /** ISO8601 时间字符串，默认取 platform.updatedAt */
+  updatedAt?: string;
   loading?: boolean;
   error?: boolean;
   onRetry?: () => void;
@@ -10,17 +12,22 @@ interface HotCardProps {
 
 const SKELETON_ROWS = 6;
 
-function formatUpdatedAt(iso: string): string {
+/** 根据 ISO 时间计算相对时间（距今多久） */
+function formatRelativeTime(iso: string): string {
   const date = new Date(iso);
   if (Number.isNaN(date.getTime())) {
     return '未知';
   }
+
   const diffMs = Date.now() - date.getTime();
   const diffMin = Math.floor(diffMs / 60000);
+
   if (diffMin < 1) return '刚刚';
   if (diffMin < 60) return `${diffMin} 分钟前`;
+
   const diffHour = Math.floor(diffMin / 60);
   if (diffHour < 24) return `${diffHour} 小时前`;
+
   return date.toLocaleString('zh-CN');
 }
 
@@ -50,11 +57,13 @@ function LoadingSkeleton() {
 
 export default function HotCard({
   platform,
+  updatedAt: updatedAtProp,
   loading = false,
   error = false,
   onRetry,
 }: HotCardProps) {
-  const { source, sourceName, listName, updatedAt, items, message } = platform;
+  const { source, sourceName, listName, items, message } = platform;
+  const updatedAt = updatedAtProp ?? platform.updatedAt;
 
   const renderBody = () => {
     if (loading) {
@@ -119,7 +128,7 @@ export default function HotCard({
 
       {!loading && (
         <footer className={styles.footer}>
-          更新于 {formatUpdatedAt(updatedAt)}
+          更新于 {formatRelativeTime(updatedAt)}
         </footer>
       )}
     </article>

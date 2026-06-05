@@ -1,12 +1,17 @@
 {
   "name": "mini-sneaker-hub-server",
   "version": "1.0.0",
+  "description": "今日球鞋热搜 · Express 后端",
   "private": true,
   "type": "module",
+  "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "dev": "node index.js"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "cors": "^2.8.6",
     "express": "^5.2.1"
