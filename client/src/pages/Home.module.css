@@ -8,6 +8,20 @@
   background: #fff;
   border-bottom: 1px solid #e8e8e8;
   padding: 24px;
+}
+
+.headerInner {
+  align-items: center;
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1200px;
+  position: relative;
+}
+
+.headerText {
+  flex: 1;
   text-align: center;
 }
 
@@ -23,6 +37,50 @@
   font-size: 0.9375rem;
   margin: 8px auto 0;
   max-width: 560px;
+}
+
+.refreshButton {
+  align-items: center;
+  background: #fff;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  color: #374151;
+  cursor: pointer;
+  display: inline-flex;
+  flex-shrink: 0;
+  font-size: 0.875rem;
+  gap: 4px;
+  padding: 8px 14px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  transition:
+    background 0.15s ease,
+    border-color 0.15s ease,
+    color 0.15s ease;
+}
+
+.refreshButton:hover:not(:disabled) {
+  background: #f3f4f6;
+  border-color: #9ca3af;
+  color: #1a1a2e;
+}
+
+.refreshButton:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+
+.refreshIcon {
+  display: inline-block;
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.refreshButton:not(:disabled):hover .refreshIcon {
+  transform: rotate(-30deg);
+  transition: transform 0.2s ease;
 }
 
 .main {
@@ -107,14 +165,36 @@
 
 @media (max-width: 768px) {
   .grid {
+    gap: 16px;
     grid-template-columns: 1fr;
+    margin: 0 4px;
+  }
+
+  .section {
+    margin-bottom: 24px;
+  }
+
+  .sectionTitle {
+    margin-bottom: 12px;
   }
 
   .header {
     padding: 20px 16px;
   }
 
+  .headerInner {
+    flex-direction: column;
+    padding-top: 40px;
+  }
+
+  .refreshButton {
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: none;
+  }
+
   .main {
-    padding: 16px;
+    padding: 12px 12px 20px;
   }
 }

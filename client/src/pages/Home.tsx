@@ -92,6 +92,7 @@ function toCardState(platform: HotPlatform | undefined, fallback: HotPlatform): 
 
 function useHotPlatforms() {
   const [platformStates, setPlatformStates] = useState(createInitialStates);
+  const [isRefreshing, setIsRefreshing] = useState(false);
 
   const applyPlatforms = useCallback((platforms: HotPlatform[]) => {
     setPlatformStates((prev) =>
@@ -127,6 +128,7 @@ function useHotPlatforms() {
   }, []);
 
   const loadAll = useCallback(async () => {
+    setIsRefreshing(true);
     setAllLoading();
     try {
       const data = await fetchAllHot();
@@ -148,6 +150,8 @@ function useHotPlatforms() {
           ]),
         ),
       );
+    } finally {
+      setIsRefreshing(false);
     }
   }, [applyPlatforms, setAllLoading]);
 
@@ -208,6 +212,8 @@ function useHotPlatforms() {
     domesticPlatforms: getPlatformsBySources(DOMESTIC_SOURCES),
     overseasPlatforms: getPlatformsBySources(OVERSEAS_SOURCES),
     retryPlatform,
+    refreshAll: loadAll,
+    isRefreshing,
   };
 }
 
@@ -221,24 +227,47 @@ function renderHotCards(
       platform={platform}
       loading={loading}
       error={error}
+      isDemo={platform.source === 'dewu'}
       onRetry={() => retryPlatform(platform.source)}
     />
   ));
 }
 
 export default function Home() {
-  const { allPlatforms, domesticPlatforms, overseasPlatforms, retryPlatform } =
-    useHotPlatforms();
+  const {
+    allPlatforms,
+    domesticPlatforms,
+    overseasPlatforms,
+    retryPlatform,
+    refreshAll,
+    isRefreshing,
+  } = useHotPlatforms();
   const allLoading =
     allPlatforms.length > 0 && allPlatforms.every((state) => state.loading);
 
   return (
     <div className={styles.page}>
       <header className={styles.header}>
-        <h1 className={styles.title}>今日球鞋热搜</h1>
-        <p className={styles.subtitle}>
-          聚合识货、得物、虎扑及海外球鞋资讯平台热门内容，一站浏览各平台热搜
-        </p>
+        <div className={styles.headerInner}>
+          <div className={styles.headerText}>
+            <h1 className={styles.title}>今日球鞋热搜</h1>
+            <p className={styles.subtitle}>
+              聚合识货、得物、虎扑及海外球鞋资讯平台热门内容，一站浏览各平台热搜
+            </p>
+          </div>
+          <button
+            type="button"
+            className={styles.refreshButton}
+            onClick={() => refreshAll()}
+            disabled={isRefreshing}
+            aria-label="刷新全部平台数据"
+          >
+            <span className={styles.refreshIcon} aria-hidden="true">
+              ↻
+            </span>
+            刷新
+          </button>
+        </div>
       </header>
 
       <main className={styles.main}>

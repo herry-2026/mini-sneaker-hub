@@ -1,0 +1,1235 @@
+{
+  "props": {
+    "pageProps": {
+      "data": {
+        "code": 0,
+        "status": 0,
+        "req_id": "b6f887ff5e06ad60fd0abb469b657509",
+        "msg": "success",
+        "data": {
+          "list": [
+            {
+              "goods_id": 134,
+              "style_id": 169181,
+              "title": "Nike Air Force 1 空军一号 板鞋 轻便舒适百搭耐磨防滑 White 纯白经典",
+              "img": "http://static.shihuocdn.cn/goods/locrevise/20260104/4157b9d2-e968-11f0-8aed-2e1911ba5f0a_1517x1517.jpeg?imageView2/0/w/700/h/700/interlace/1",
+              "img_h": "1",
+              "img_w": "1",
+              "price": "412",
+              "official_price": "",
+              "sales_info": "68.53w人付款",
+              "root_category_id": 8,
+              "child_category_id": 101427,
+              "brand_name": "Nike/耐克",
+              "tags": null,
+              "labels": [
+                {
+                  "bcolor": "#FFFFFF",
+                  "bcolor_dark": "#242424",
+                  "bgcolor": "#FFFFFF",
+                  "bgcolor_dark": "#242424",
+                  "tcolor": "#0DBA23",
+                  "tcolor_dark": "#0DBA23",
+                  "text": "国家补贴",
+                  "type": "PUBLIC_SUBSIDIES"
+                },
+                {
+                  "bcolor": "#FFFFFF",
+                  "bcolor_dark": "#242424",
+                  "bgcolor": "#FFFFFF",
+                  "bgcolor_dark": "#242424",
+                  "tcolor": "#BD814E",
+                  "tcolor_dark": "#A37C5A",
+                  "text": "近期收藏上千",
+                  "type": "GOODS_HOT"
+                }
+              ]
+            },
+            {
+              "goods_id": 7929864,
+              "style_id": 713174603,
+              "title": "苹果 iPhone17 Pro Max 5G 手机 抗反射显示屏 全新散热系统 4800万像素镜头全模组 8K视频录制 8倍变焦 支持WIFI7 全网通 双卡 视网膜屏 银色",
+              "img": "http://proxy.shihuocdn.cn/aHR0cHM6Ly9pbWcxNC4zNjBidXlpbWcuY29tL3BvcC9qZnMvdDEvMzI0ODk3LzM3LzE4MTgzLzIyNTUwLzY4YzA4ZjE2RjBkOTBiNzZjLzU4MTFjNmQzMWU1MTkxMTAuanBn?imageView2/0/w/700/h/700/interlace/1",
+              "img_h": "1",
+              "img_w": "1",
+              "price": "7999",
+              "official_price": "",
+              "sales_info": "2.43w人付款",
+              "root_category_id": 186,
+              "child_category_id": 187,
+              "brand_name": "Apple/苹果",
+              "tags": null,
+              "labels": [
+                {
+                  "bcolor": "#FFFFFF",
+                  "bcolor_dark": "#242424",
+                  "bgcolor": "#FFFFFF",
+                  "bgcolor_dark": "#242424",
+                  "tcolor": "#0DBA23",
+                  "tcolor_dark": "#0DBA23",
+                  "text": "国家补贴",
+                  "type": "PUBLIC_SUBSIDIES"
+                },
+                {
+                  "bcolor": "#FFFFFF",
+                  "bcolor_dark": "#242424",
+                  "bgcolor": "#FFFFFF",
+                  "bgcolor_dark": "#242424",
+                  "tcolor": "#BD814E",
+                  "tcolor_dark": "#A37C5A",
+                  "text": "近180天最低价",
+                  "type": "LOW_PRICE"
+                }
+              ]
+            },
+            {
+              "goods_id": 5714601,
+              "style_id": 761961274,
+              "title": "Nike Air Zoom Maxfly 2 迈飞 跑鞋 缓震回弹田径比赛碳板运动短跑 白色/黑色/红色",
+              "img": "http://static.shihuocdn.cn/goods/locrevise/20250926/0c217dda-9a6b-11f0-8f75-82ec82919c2b_2038x2038.jpeg?imageView2/0/w/700/h/700/interlace/1",
+              "img_h": "1",
+              "img_w": "1",
+              "price": "858",
+              "official_price": "",
+              "sales_info": "1.79w人付款",
+              "root_category_id": 8,
+              "child_category_id": 12,
+              "brand_name": "Nike/耐克",
+              "tags": null,
+              "labels": [
+                {
+                  "bcolor": "#FFFFFF",
+                  "bcolor_dark": "#242424",
+                  "bgcolor": "#FFFFFF",
+                  "bgcolor_dark": "#242424",
+                  "tcolor": "#BD814E",
+                  "tcolor_dark": "#A37C5A",
+                  "text": "近期收藏上千",
+                  "type": "GOODS_HOT"
+                }
+              ]
+            },
+            {
+              "goods_id": 608747,
+              "style_id": 7095544,
+              "title": "NARS 大白饼流光美肌蜜粉饼 轻透定妆细腻不飞粉 经典色",
+              "img": "http://static.shihuocdn.cn/common/85010f9783604082896a73cdc5f2764d.jpeg?imageView2/0/w/700/h/700/interlace/1",
+              "img_h": "1",
+              "img_w": "1",
+              "price": "133",
+              "official_price": "",
+              "sales_info": "14.55w人付款",
+              "root_category_id": 338,
+              "child_category_id": 362,
+              "brand_name": "NARS/娜斯",
+              "tags": null,
+              "labels": [
+                {
+                  "bcolor": "#FFFFFF",
+                  "bcolor_dark": "#242424",
+                  "bgcolor": "#FFFFFF",
+                  "bgcolor_dark": "#242424",
+                  "tcolor": "#FF5A21",
+                  "tcolor_dark": "#CD6642",
+                  "text": "细腻清透柔焦",
+                  "type": "ATTR_INFO"
+                }
+              ]
+            },
+            {
+              "goods_id": 7137544,
+              "style_id": 438351314,
+              "title": "adidas Originals T恤 Adicolor系列拼接圆领棉质刺绣三条纹短袖T恤 白",
+              "img": "http://static.shihuocdn.cn/goods/locrevise/20250922/ACE0D0408DCC4B629486274BE83F5B2B_2296x2296.jpeg?imageView2/0/w/700/h/700/interlace/1",
+              "img_h": "1",
+              "img_w": "1",
+              "price": "188",
+              "official_price": "",
+              "sales_info": "2.03w人付款",
+              "root_category_id": 10,
+              "child_category_id": 11,
+              "brand_name": "adidas Originals/三叶草",
+              "tags": null,
+              "labels": [
+                {
+                  "bcolor": "#FFFFFF",
+                  "bcolor_dark": "#242424",
+                  "bgcolor": "#FFFFFF",
+                  "bgcolor_dark": "#242424",
+                  "tcolor": "#0DBA23",
+                  "tcolor_dark": "#0DBA23",
+                  "text": "国家补贴",
+                  "type": "PUBLIC_SUBSIDIES"
+                },
+                {
+                  "bcolor": "#FFFFFF",
+                  "bcolor_dark": "#242424",
+                  "bgcolor": "#FFFFFF",
+                  "bgcolor_dark": "#242424",
+                  "tcolor": "#BD814E",
+                  "tcolor_dark": "#A37C5A",
+                  "text": "近期浏览过万",
+                  "type": "GOODS_HOT"
+                },
+                {
+                  "bcolor": "#FFFFFF",
+                  "bcolor_dark": "#242424",
+                  "bgcolor": "#FFFFFF",
+                  "bgcolor_dark": "#242424",
+                  "tcolor": "#FF5A21",
+                  "tcolor_dark": "#CD6642",
+                  "text": "Jennie同款",
+                  "type": "GOODS_TITLE"
+                }
+              ]
+            },
+            {
+              "goods_id": 358,
+              "style_id": 409900525,
+              "title": "adidas Originals Superstar 板鞋 轻便贝壳头薄底舒适百搭耐磨 黑色/白色",
+              "img": "http://static.shihuocdn.cn/goods/locrevise/20250106/45ae6aa4-cc3a-11ef-ac04-3a46db7e88f1_2063x2063.jpeg?imageView2/0/w/700/h/700/interlace/1",
+              "img_h": "1",
+              "img_w": "1",
+              "price": "396",
+              "official_price": "",
+              "sales_info": "6.02w人付款",
+              "root_category_id": 8,
+              "child_category_id": 101427,
+              "brand_name": "adidas Originals/三叶草",
+              "tags": null,
+              "labels": [
+                {
+                  "bcolor": "#FFFFFF",
+                  "bcolor_dark": "#242424",
+                  "bgcolor": "#FFFFFF",
+                  "bgcolor_dark": "#242424",
+                  "tcolor": "#BD814E",
+                  "tcolor_dark": "#A37C5A",
+                  "text": "近期收藏上千",
+                  "type": "GOODS_HOT"
+                },
+                {
+                  "bcolor": "#FFFFFF",
+                  "bcolor_dark": "#242424",
+                  "bgcolor": "#FFFFFF",
+                  "bgcolor_dark": "#242424",
+                  "tcolor": "#FF5A21",
+                  "tcolor_dark": "#CD6642",
+                  "text": "宋雨琦同款",
+                  "type": "GOODS_TITLE"
+                }
+              ]
+            },
+            {
+              "goods_id": 7929848,
+              "style_id": 754572635,
+              "title": "苹果 iPhone17 Pro 5G 手机 航空级铝合金材质 全新散热系统 7层抗反射涂层 4800万像素后摄全覆盖 全网通 双卡双待 视网膜屏 银色",
+              "img": "http://static.shihuocdn.cn/goods/locrevise/20250910/1341F031EFD446A2B3CE27CED11D8C3A_1998x1998.jpeg?imageView2/0/w/700/h/700/interlace/1",
+              "img_h": "1",
+              "img_w": "1",
+              "price": "7349",
+              "official_price": "",
+              "sales_info": "2.07w人付款",
+              "root_category_id": 186,
+              "child_category_id": 187,
+              "brand_name": "Apple/苹果",
+              "tags": null,
+              "labels": [
+                {
+                  "bcolor": "#FFFFFF",
+                  "bcolor_dark": "#242424",
+                  "bgcolor": "#FFFFFF",
+                  "bgcolor_dark": "#242424",
+                  "tcolor": "#0DBA23",
+                  "tcolor_dark": "#0DBA23",
+                  "text": "国家补贴",
+                  "type": "PUBLIC_SUBSIDIES"
+                },
+                {
+                  "bcolor": "#FFFFFF",
+                  "bcolor_dark": "#242424",
+                  "bgcolor": "#FFFFFF",
+                  "bgcolor_dark": "#242424",
+                  "tcolor": "#BD814E",
+                  "tcolor_dark": "#A37C5A",
+                  "text": "近期购买上千",
+                  "type": "GOODS_HOT"
+                }
+              ]
+            },
+            {
+              "goods_id": 8795629,
+              "style_id": 950304405,
+              "title": "小米 巨省电Pro系列 壁挂式空调 1/1.5匹 超一级能效 自清洁 独立除湿 白色",
+              "img": "http://static.shihuocdn.cn/goods/locrevise/20260228/c7322772-145b-11f1-9009-96058044d6f3_753x753.jpeg?imageView2/0/w/700/h/700/interlace/1",
+              "img_h": "1",
+              "img_w": "1",
+              "price": "1741",
+              "official_price": "",
+              "sales_info": "686人付款",
+              "root_category_id": 377,
+              "child_category_id": 467,
+              "brand_name": "MI/小米",
+              "tags": null,
+              "labels": [
+                {
+                  "bcolor": "#FFFFFF",
+                  "bcolor_dark": "#242424",
+                  "bgcolor": "#FFFFFF",
+                  "bgcolor_dark": "#242424",
+                  "tcolor": "#0DBA23",
+                  "tcolor_dark": "#0DBA23",
+                  "text": "国家补贴",
+                  "type": "PUBLIC_SUBSIDIES"
+                },
+                {
+                  "bcolor": "#FFFFFF",
+                  "bcolor_dark": "#242424",
+                  "bgcolor": "#FFFFFF",
+                  "bgcolor_dark": "#242424",
+                  "tcolor": "#BD814E",
+                  "tcolor_dark": "#A37C5A",
+                  "text": "销量飙升125%",
+                  "type": "GOODS_HOT"
+                }
+              ]
+            },
+            {
+              "goods_id": 6393205,
+              "style_id": 293950370,
+              "title": "Coach Rowan 18 小号 涂层经典老花印花拉链开合PVC拼皮单肩斜挎手提包 奶茶拼白",
+              "img": "http://static.shihuocdn.cn/common/b3806fd0c48c4641b161bae3da91b16a.jpeg?imageView2/0/w/700/h/700/interlace/1",
+              "img_h": "1",
+              "img_w": "1",
+              "price": "1279",
+              "official_price": "",
+              "sales_info": "8758人付款",
+              "root_category_id": 53,
+              "child_category_id": 358,
+              "brand_name": "Coach/蔻驰",
+              "tags": null,
+              "labels": [
+                {
+                  "bcolor": "#FFFFFF",
+                  "bcolor_dark": "#242424",
+                  "bgcolor": "#FFFFFF",
+                  "bgcolor_dark": "#242424",
+                  "tcolor": "#0DBA23",
+                  "tcolor_dark": "#0DBA23",
+                  "text": "国家补贴",
+                  "type": "PUBLIC_SUBSIDIES"
+                },
+                {
+                  "bcolor": "#FFFFFF",
+                  "bcolor_dark": "#242424",
+                  "bgcolor": "#FFFFFF",
+                  "bgcolor_dark": "#242424",
+                  "tcolor": "#999999",
+                  "tcolor_dark": "#ABAFBE",
+                  "text": "6期免息",
+                  "type": "X_INTEREST_FREE"
+                }
+              ]
+            },
+            {
+              "goods_id": 1929478,
+              "style_id": 158701187,
+              "title": "尤尼克斯 天斧系列 天斧88DPRO AX88Dpro 明星款 耐打 专业级 单双打 杆硬 拍头重 进攻拍 控球 白虎纹 碳纤维 日制 羽毛球拍 黑银",
+              "img": "http://static.shihuocdn.cn/common/608fa24766c34e728afe41497f328c98.jpeg?imageView2/0/w/700/h/700/interlace/1",
+              "img_h": "1",
+              "img_w": "1",
+              "price": "1374",
+              "official_price": "",
+              "sales_info": "3409人付款",
+              "root_category_id": 29,
+              "child_category_id": 601937,
+              "brand_name": "YONEX/尤尼克斯",
+              "tags": null,
+              "labels": []
+            },
+            {
+              "goods_id": 7968444,
+              "style_id": 725601735,
+              "title": "Fanci/范琦 项链 蓝眼泪S925银项链 SN03327W000 浅海蓝色",
+              "img": "http://static.shihuocdn.cn/goods/locrevise/20250816/89852432-7a88-11f0-bb94-96058044d6f3_905x905.jpeg?imageView2/0/w/700/h/700/interlace/1",
+              "img_h": "1",
+              "img_w": "1",
+              "price": "357",
+              "official_price": "",
+              "sales_info": "2282人付款",
+              "root_category_id": 770,
+              "child_category_id": 454,
+              "brand_name": "Fanci/范琦",
+              "tags": null,
+              "labels": []
+            },
+            {
+              "goods_id": 8390718,
+              "style_id": 836064508,
+              "title": "高驰 PACE 4 双频全星座运动音乐马拉松跑步爬楼越野超长续航智能男女同款手表 白色",
+              "img": "http://static.shihuocdn.cn/goods/locrevise/20251117/72804d10-c363-11f0-a87e-566ef7d2665f_1317x1317.jpeg?imageView2/0/w/700/h/700/interlace/1",
+              "img_h": "1",
+              "img_w": "1",
+              "price": "1316",
+              "official_price": "",
+              "sales_info": "4931人付款",
+              "root_category_id": 537,
+              "child_category_id": 101152,
+              "brand_name": "COROS/高驰",
+              "tags": null,
+              "labels": [
+                {
+                  "bcolor": "#FFFFFF",
+                  "bcolor_dark": "#242424",
+                  "bgcolor": "#FFFFFF",
+                  "bgcolor_dark": "#242424",
+                  "tcolor": "#0DBA23",
+                  "tcolor_dark": "#0DBA23",
+                  "text": "国家补贴",
+                  "type": "PUBLIC_SUBSIDIES"
+                },
+                {
+                  "bcolor": "#FFFFFF",
+                  "bcolor_dark": "#242424",
+                  "bgcolor": "#FFFFFF",
+                  "bgcolor_dark": "#242424",
+                  "tcolor": "#BD814E",
+                  "tcolor_dark": "#A37C5A",
+                  "text": "近期浏览过万",
+                  "type": "GOODS_HOT"
+                }
+              ]
+            },
+            {
+              "goods_id": 1218420,
+              "style_id": 663405845,
+              "title": "JELLYCAT 毛绒玩具 动物系列 Blossom 花布邦尼兔 毛绒玩具 白芮（乳白色）",
+              "img": "http://static.shihuocdn.cn/goods/locrevise/20250628/3e3d2372-5426-11f0-b1fb-62b163af9ca5_860x860.jpeg?imageView2/0/w/700/h/700/interlace/1",
+              "img_h": "1",
+              "img_w": "1",
+              "price": "194",
+              "official_price": "",
+              "sales_info": "8648人付款",
+              "root_category_id": 458,
+              "child_category_id": 772,
+              "brand_name": "JELLYCAT",
+              "tags": null,
+              "labels": []
+            },
+            {
+              "goods_id": 7374722,
+              "style_id": 523374316,
+              "title": "Ulike 脱毛仪 Air4蓝宝石冰点脱毛仪 强劲速脱脱全身送女生礼物 紫色",
+              "img": "http://static.shihuocdn.cn/common/d125a9688fc14eb9957b974c9c644460.jpeg?imageView2/0/w/700/h/700/interlace/1",
+              "img_h": "1",
+              "img_w": "1",
+              "price": "1309",
+              "official_price": "",
+              "sales_info": "2667人付款",
+              "root_category_id": 101718,
+              "child_category_id": 612,
+              "brand_name": "Ulike",
+              "tags": null,
+              "labels": [
+                {
+                  "bcolor": "#FFFFFF",
+                  "bcolor_dark": "#242424",
+                  "bgcolor": "#FFFFFF",
+                  "bgcolor_dark": "#242424",
+                  "tcolor": "#0DBA23",
+                  "tcolor_dark": "#0DBA23",
+                  "text": "国家补贴",
+                  "type": "PUBLIC_SUBSIDIES"
+                },
+                {
+                  "bcolor": "#FFFFFF",
+                  "bcolor_dark": "#242424",
+                  "bgcolor": "#FFFFFF",
+                  "bgcolor_dark": "#242424",
+                  "tcolor": "#BD814E",
+                  "tcolor_dark": "#A37C5A",
+                  "text": "销量飙升255%",
+                  "type": "GOODS_HOT"
+                },
+                {
+                  "bcolor": "#FFFFFF",
+                  "bcolor_dark": "#242424",
+                  "bgcolor": "#FFFFFF",
+                  "bgcolor_dark": "#242424",
+                  "tcolor": "#FF5A21",
+                  "tcolor_dark": "#CD6642",
+                  "text": "无感脱出嫩滑肌",
+                  "type": "ATTR_INFO"
+                }
+              ]
+            },
+            {
+              "goods_id": 954645,
+              "style_id": 221143688,
+              "title": "奥普帝蒙 进口版 乳清蛋白粉 罐装 健身增肌",
+              "img": "http://static.shihuocdn.cn/goods/locrevise/20240729/5FB01C55651947F18E93AB1EE501E9B7_2110x2110.jpeg?imageView2/0/w/700/h/700/interlace/1",
+              "img_h": "1",
+              "img_w": "1",
+              "price": "348",
+              "official_price": "",
+              "sales_info": "4.07w人付款",
+              "root_category_id": 601574,
+              "child_category_id": 601632,
+              "brand_name": "ON/奥普帝蒙",
+              "tags": null,
+              "labels": [
+                {
+                  "bcolor": "#FFFFFF",
+                  "bcolor_dark": "#242424",
+                  "bgcolor": "#FFFFFF",
+                  "bgcolor_dark": "#242424",
+                  "tcolor": "#BD814E",
+                  "tcolor_dark": "#A37C5A",
+                  "text": "近期浏览过万",
+                  "type": "GOODS_HOT"
+                }
+              ]
+            },
+            {
+              "goods_id": 3429571,
+              "style_id": 83566333,
+              "title": "九号 电动摩托车 M系列 M85C 智能APP 超长续航 NFC解锁 代步 电动摩托车 M85C银色",
+              "img": "http://static.shihuocdn.cn/goods/locrevise/20240815/6F9136BBCD25435C8CDEB6048C790B74_763x763.jpeg?imageView2/0/w/700/h/700/interlace/1",
+              "img_h": "1",
+              "img_w": "1",
+              "price": "3699",
+              "official_price": "",
+              "sales_info": "1628人付款",
+              "root_category_id": 101685,
+              "child_category_id": 101760,
+              "brand_name": "Ninebot/九号",
+              "tags": null,
+              "labels": [
+                {
+                  "bcolor": "#FFFFFF",
+                  "bcolor_dark": "#242424",
+                  "bgcolor": "#FFFFFF",
+                  "bgcolor_dark": "#242424",
+                  "tcolor": "#BD814E",
+                  "tcolor_dark": "#A37C5A",
+                  "text": "近175天最低价",
+                  "type": "LOW_PRICE"
+                }
+              ]
+            },
+            {
+              "goods_id": 818210,
+              "style_id": 10499485,
+              "title": "五粮液 第八代 普五 52度 500ml 白酒 盒装",
+              "img": "http://static.shihuocdn.cn/common/78c4e97c9e234387a1ac3db93917d819.jpeg?imageView2/0/w/700/h/700/interlace/1",
+              "img_h": "1",
+              "img_w": "1",
+              "price": "1538",
+              "official_price": "",
+              "sales_info": "1.24w人付款",
+              "root_category_id": 495,
+              "child_category_id": 496,
+              "brand_name": "五粮液",
+              "tags": null,
+              "labels": [
+                {
+                  "bcolor": "#FFFFFF",
+                  "bcolor_dark": "#242424",
+                  "bgcolor": "#FFFFFF",
+                  "bgcolor_dark": "#242424",
+                  "tcolor": "#999999",
+                  "tcolor_dark": "#ABAFBE",
+                  "text": "500ml*2瓶",
+                  "type": "SPEC_NAME"
+                }
+              ]
+            },
+            {
+              "goods_id": 3733761,
+              "style_id": 74213818,
+              "title": "无畏契约 点券 VP 国服 瓦罗兰特 点券充值 国区",
+              "img": "http://static.shihuocdn.cn/goods/style/ad1b12dc55a1457cb7d00c305c07095b.png?imageView2/0/w/700/h/700/interlace/1",
+              "img_h": "1",
+              "img_w": "1",
+              "price": "75",
+              "official_price": "",
+              "sales_info": "2.88w人付款",
+              "root_category_id": 922,
+              "child_category_id": 955,
+              "brand_name": "无畏契约",
+              "tags": null,
+              "labels": []
+            },
+            {
+              "goods_id": 8366928,
+              "style_id": 827967983,
+              "title": "亚朵星球 深睡系列 Pro3.0 70x42cm 深睡枕 助睡眠护颈椎",
+              "img": "http://proxy.shihuocdn.cn/aHR0cHM6Ly9wMy1haW9wLXNpZ24uYnl0ZWltZy5jb20vdG9zLWNuLWktdnVxaG9yaDU5aS8yMDI1MTIyMTE5MzExNUQ0MjJEMkZENUU3N0MxMzgyODUyLTg0MDgtMH50cGx2LXZ1cWhvcmg1OWktaW1hZ2UtdjEuaW1hZ2U_cmszcz03ZjllNzAyZCZ4LWV4cGlyZXM9MTc2NjQwMzA3NiZ4LXNpZ25hdHVyZT1iZmclMkZIamliOFRIM3N6c1Z1Y3RsNGlDajViMCUzRA?imageView2/0/w/700/h/700/interlace/1",
+              "img_h": "1",
+              "img_w": "1",
+              "price": "429",
+              "official_price": "",
+              "sales_info": "774人付款",
+              "root_category_id": 987,
+              "child_category_id": 991,
+              "brand_name": "亚朵星球",
+              "tags": null,
+              "labels": [
+                {
+                  "bcolor": "#FFFFFF",
+                  "bcolor_dark": "#242424",
+                  "bgcolor": "#FFFFFF",
+                  "bgcolor_dark": "#242424",
+                  "tcolor": "#999999",
+                  "tcolor_dark": "#ABAFBE",
+                  "text": "浅蓝*1只",
+                  "type": "SPEC_NAME"
+                }
+              ]
+            },
+            {
+              "goods_id": 3974355,
+              "style_id": 83911484,
+              "title": "布鲁克 V12民谣初学者吉他单板 V12NDCM原木色哑光缺角民谣41寸",
+              "img": "http://static.shihuocdn.cn/goods/style/e1d273834c9a4ee6a90838f99bad72bc.png?imageView2/0/w/700/h/700/interlace/1",
+              "img_h": "1",
+              "img_w": "1",
+              "price": "567",
+              "official_price": "",
+              "sales_info": "9878人付款",
+              "root_category_id": 602172,
+              "child_category_id": 602268,
+              "brand_name": "Brook/布鲁克",
+              "tags": null,
+              "labels": [
+                {
+                  "bcolor": "#FFFFFF",
+                  "bcolor_dark": "#242424",
+                  "bgcolor": "#FFFFFF",
+                  "bgcolor_dark": "#242424",
+                  "tcolor": "#BD814E",
+                  "tcolor_dark": "#A37C5A",
+                  "text": "近180天最低价",
+                  "type": "LOW_PRICE"
+                }
+              ]
+            },
+            {
+              "goods_id": 1184255,
+              "style_id": 40939661,
+              "title": "蓝氏 猫粮 猎鸟乳鸽系列全期全价 膨化猫粮 增肥发腮均衡营养高蛋白 10kg",
+              "img": "http://static.shihuocdn.cn/common/790122f3d6574609bae5f561d96de712.jpeg?imageView2/0/w/700/h/700/interlace/1",
+              "img_h": "1",
+              "img_w": "1",
+              "price": "308",
+              "official_price": "",
+              "sales_info": "2.71w人付款",
+              "root_category_id": 587,
+              "child_category_id": 588,
+              "brand_name": "Legend Sandy/蓝氏",
+              "tags": null,
+              "labels": [
+                {
+                  "bcolor": "#FFFFFF",
+                  "bcolor_dark": "#242424",
+                  "bgcolor": "#FFFFFF",
+                  "bgcolor_dark": "#242424",
+                  "tcolor": "#BD814E",
+                  "tcolor_dark": "#A37C5A",
+                  "text": "近131天最低价",
+                  "type": "LOW_PRICE"
+                },
+                {
+                  "bcolor": "#FFFFFF",
+                  "bcolor_dark": "#242424",
+                  "bgcolor": "#FFFFFF",
+                  "bgcolor_dark": "#242424",
+                  "tcolor": "#999999",
+                  "tcolor_dark": "#ABAFBE",
+                  "text": "10kg*7袋",
+                  "type": "SPEC_NAME"
+                }
+              ]
+            },
+            {
+              "goods_id": 8561328,
+              "style_id": 881821425,
+              "title": "李宁 利刃6V2 篮球鞋 稳定支撑抗扭减震实战防滑比赛回弹轻质抓地包裹 黑色",
+              "img": "http://static.shihuocdn.cn/goods/locrevise/20251226/34b12a1e-e257-11f0-a27c-6afa1e137287_1490x1490.jpeg?imageView2/0/w/700/h/700/interlace/1",
+              "img_h": "1",
+              "img_w": "1",
+              "price": "628",
+              "official_price": "",
+              "sales_info": "7267人付款",
+              "root_category_id": 8,
+              "child_category_id": 9,
+              "brand_name": "Li Ning/李宁",
+              "tags": null,
+              "labels": [
+                {
+                  "bcolor": "#FFFFFF",
+                  "bcolor_dark": "#242424",
+                  "bgcolor": "#FFFFFF",
+                  "bgcolor_dark": "#242424",
+                  "tcolor": "#BD814E",
+                  "tcolor_dark": "#A37C5A",
+                  "text": "近期收藏上千",
+                  "type": "GOODS_HOT"
+                }
+              ]
+            },
+            {
+              "goods_id": 7929864,
+              "style_id": 713174600,
+              "title": "苹果 iPhone17 Pro Max 5G 手机 抗反射显示屏 全新散热系统 4800万像素镜头全模组 8K视频录制 8倍变焦 支持WIFI7 全网通 双卡 视网膜屏 星宇橙色",
+              "img": "http://static.shihuocdn.cn/goods/locrevise/20250910/aad66112-8dea-11f0-a98d-96058044d6f3_708x708.jpeg?imageView2/0/w/700/h/700/interlace/1",
+              "img_h": "1",
+              "img_w": "1",
+              "price": "7999",
+              "official_price": "",
+              "sales_info": "2.43w人付款",
+              "root_category_id": 186,
+              "child_category_id": 187,
+              "brand_name": "Apple/苹果",
+              "tags": null,
+              "labels": [
+                {
+                  "bcolor": "#FFFFFF",
+                  "bcolor_dark": "#242424",
+                  "bgcolor": "#FFFFFF",
+                  "bgcolor_dark": "#242424",
+                  "tcolor": "#0DBA23",
+                  "tcolor_dark": "#0DBA23",
+                  "text": "国家补贴",
+                  "type": "PUBLIC_SUBSIDIES"
+                },
+                {
+                  "bcolor": "#FFFFFF",
+                  "bcolor_dark": "#242424",
+                  "bgcolor": "#FFFFFF",
+                  "bgcolor_dark": "#242424",
+                  "tcolor": "#BD814E",
+                  "tcolor_dark": "#A37C5A",
+                  "text": "近180天最低价",
+                  "type": "LOW_PRICE"
+                }
+              ]
+            },
+            {
+              "goods_id": 21390,
+              "style_id": 151737768,
+              "title": "亚瑟士 Gel-Contend 4 跑鞋 慢跑网面透气缓震回弹复古轻便耐磨 男款/银色/白色",
+              "img": "http://static.shihuocdn.cn/goods/locrevise/20250502/885f0240-2721-11f0-93fc-1e628d9f6cdb_876x876.jpeg?imageView2/0/w/700/h/700/interlace/1",
+              "img_h": "1",
+              "img_w": "1",
+              "price": "306",
+              "official_price": "",
+              "sales_info": "5.42w人付款",
+              "root_category_id": 8,
+              "child_category_id": 12,
+              "brand_name": "Asics/亚瑟士",
+              "tags": null,
+              "labels": [
+                {
+                  "bcolor": "#FFFFFF",
+                  "bcolor_dark": "#242424",
+                  "bgcolor": "#FFFFFF",
+                  "bgcolor_dark": "#242424",
+                  "tcolor": "#BD814E",
+                  "tcolor_dark": "#A37C5A",
+                  "text": "近期收藏上千",
+                  "type": "GOODS_HOT"
+                }
+              ]
+            },
+            {
+              "goods_id": 5673687,
+              "style_id": 250299087,
+              "title": "YSL 黑管镜面唇釉 水光滋润玻璃唇 610冰乌龙",
+              "img": "http://static.shihuocdn.cn/common/0b2adee60a6340c5b192b45f1cef8a59.jpeg?imageView2/0/w/700/h/700/interlace/1",
+              "img_h": "1",
+              "img_w": "1",
+              "price": "162",
+              "official_price": "",
+              "sales_info": "9.44w人付款",
+              "root_category_id": 338,
+              "child_category_id": 340,
+              "brand_name": "YSL/圣罗兰",
+              "tags": null,
+              "labels": [
+                {
+                  "bcolor": "#FFFFFF",
+                  "bcolor_dark": "#242424",
+                  "bgcolor": "#FFFFFF",
+                  "bgcolor_dark": "#242424",
+                  "tcolor": "#0DBA23",
+                  "tcolor_dark": "#0DBA23",
+                  "text": "国家补贴",
+                  "type": "PUBLIC_SUBSIDIES"
+                },
+                {
+                  "bcolor": "#FFFFFF",
+                  "bcolor_dark": "#242424",
+                  "bgcolor": "#FFFFFF",
+                  "bgcolor_dark": "#242424",
+                  "tcolor": "#FF5A21",
+                  "tcolor_dark": "#CD6642",
+                  "text": "欲感玻璃唇",
+                  "type": "ATTR_INFO"
+                }
+              ]
+            },
+            {
+              "goods_id": 5060682,
+              "style_id": 158200828,
+              "title": "adidas Originals 三叶草系列复古风侧边三条纹刺绣单拉链立领长袖防风梭织加绒夹克 JI7533 JI7534 JI7535 GN1862 亮白",
+              "img": "http://proxy.shihuocdn.cn/aHR0cHM6Ly9wOS1haW9wLXNpZ24uYnl0ZWltZy5jb20vdG9zLWNuLWktdnVxaG9yaDU5aS8yMDI1MTEwNzE0MTAyMTI3MDc4QzEyMUUxQjIxQkI5OEVCLTEwMTEtMH50cGx2LXZ1cWhvcmg1OWktaW1hZ2UtdjEuaW1hZ2U_cmszcz03ZjllNzAyZCZ4LWV4cGlyZXM9MTc2MjU4MjIyMyZ4LXNpZ25hdHVyZT1yUUM0b1hBR3NQMWM4ckplcG1uek1kU0Vra2clM0Q?imageView2/0/w/700/h/700/interlace/1",
+              "img_h": "1",
+              "img_w": "1",
+              "price": "330",
+              "official_price": "",
+              "sales_info": "2w人付款",
+              "root_category_id": 10,
+              "child_category_id": 21,
+              "brand_name": "adidas Originals/三叶草",
+              "tags": null,
+              "labels": []
+            },
+            {
+              "goods_id": 178299,
+              "style_id": 50120547,
+              "title": "adidas Originals Samba OG T头鞋 板鞋 经典复古舒适百搭耐磨合成革圆头薄底贴合 白色/铁灰/灰色",
+              "img": "http://static.shihuocdn.cn/goods/locrevise/20250221/e3e376fa-f003-11ef-bf80-9238dd45a58a_911x911.jpeg?imageView2/0/w/700/h/700/interlace/1",
+              "img_h": "1",
+              "img_w": "1",
+              "price": "357",
+              "official_price": "",
+              "sales_info": "11.43w人付款",
+              "root_category_id": 8,
+              "child_category_id": 101427,
+              "brand_name": "adidas Originals/三叶草",
+              "tags": null,
+              "labels": [
+                {
+                  "bcolor": "#FFFFFF",
+                  "bcolor_dark": "#242424",
+                  "bgcolor": "#FFFFFF",
+                  "bgcolor_dark": "#242424",
+                  "tcolor": "#BD814E",
+                  "tcolor_dark": "#A37C5A",
+                  "text": "近期收藏上千",
+                  "type": "GOODS_HOT"
+                },
+                {
+                  "bcolor": "#FFFFFF",
+                  "bcolor_dark": "#242424",
+                  "bgcolor": "#FFFFFF",
+                  "bgcolor_dark": "#242424",
+                  "tcolor": "#FF5A21",
+                  "tcolor_dark": "#CD6642",
+                  "text": "宋雨琦同款",
+                  "type": "GOODS_TITLE"
+                }
+              ]
+            },
+            {
+              "goods_id": 7929787,
+              "style_id": 713169122,
+              "title": "苹果 iPhone17 5G 手机 超瓷晶面板2 防刮屏幕技术 6核CPU 5核GPU 120hz高刷 1800万前摄 自适应AI摄像 双卡 全网通 视网膜屏 白色",
+              "img": "http://static.shihuocdn.cn/goods/locrevise/20250912/5ddfb4b2-8f7f-11f0-8e02-ba0b6eed5f43_650x650.jpeg?imageView2/0/w/700/h/700/interlace/1",
+              "img_h": "1",
+              "img_w": "1",
+              "price": "5249",
+              "official_price": "",
+              "sales_info": "2.94w人付款",
+              "root_category_id": 186,
+              "child_category_id": 187,
+              "brand_name": "Apple/苹果",
+              "tags": null,
+              "labels": [
+                {
+                  "bcolor": "#FFFFFF",
+                  "bcolor_dark": "#242424",
+                  "bgcolor": "#FFFFFF",
+                  "bgcolor_dark": "#242424",
+                  "tcolor": "#0DBA23",
+                  "tcolor_dark": "#0DBA23",
+                  "text": "国家补贴",
+                  "type": "PUBLIC_SUBSIDIES"
+                },
+                {
+                  "bcolor": "#FFFFFF",
+                  "bcolor_dark": "#242424",
+                  "bgcolor": "#FFFFFF",
+                  "bgcolor_dark": "#242424",
+                  "tcolor": "#BD814E",
+                  "tcolor_dark": "#A37C5A",
+                  "text": "近期收藏上千",
+                  "type": "GOODS_HOT"
+                }
+              ]
+            },
+            {
+              "goods_id": 1089304,
+              "style_id": 21179459,
+              "title": "小米 巨省电系列 壁挂式空调 1/1.5匹 新一级 能效 变频 节能 卧室 自清洁 冷暖两用 智能互联 客厅 睡眠款 低噪 极地白",
+              "img": "http://static.shihuocdn.cn/goods/locrevise/20250404/1427dfb2-1107-11f0-bab3-1aa5432f59b3_913x913.jpeg?imageView2/0/w/700/h/700/interlace/1",
+              "img_h": "1",
+              "img_w": "1",
+              "price": "1444",
+              "official_price": "",
+              "sales_info": "8054人付款",
+              "root_category_id": 377,
+              "child_category_id": 467,
+              "brand_name": "MI/小米",
+              "tags": null,
+              "labels": [
+                {
+                  "bcolor": "#FFFFFF",
+                  "bcolor_dark": "#242424",
+                  "bgcolor": "#FFFFFF",
+                  "bgcolor_dark": "#242424",
+                  "tcolor": "#0DBA23",
+                  "tcolor_dark": "#0DBA23",
+                  "text": "国家补贴",
+                  "type": "PUBLIC_SUBSIDIES"
+                },
+                {
+                  "bcolor": "#FFFFFF",
+                  "bcolor_dark": "#242424",
+                  "bgcolor": "#FFFFFF",
+                  "bgcolor_dark": "#242424",
+                  "tcolor": "#BD814E",
+                  "tcolor_dark": "#A37C5A",
+                  "text": "近期浏览过万",
+                  "type": "GOODS_HOT"
+                }
+              ]
+            },
+            {
+              "goods_id": 758111,
+              "style_id": 6343355,
+              "title": "MCM Toni Visetos 迷你 老花满印印花涂层菜篮子纳帕皮革饰边拉链开合托特包单肩包斜挎包手提包 干邑色",
+              "img": "http://static.shihuocdn.cn/goods/locrevise/20250526/c51b0862-3a0b-11f0-87d4-f219673002bd_888x888.jpeg?imageView2/0/w/700/h/700/interlace/1",
+              "img_h": "1",
+              "img_w": "1",
+              "price": "2045",
+              "official_price": "",
+              "sales_info": "8672人付款",
+              "root_category_id": 53,
+              "child_category_id": 358,
+              "brand_name": "MCM",
+              "tags": null,
+              "labels": [
+                {
+                  "bcolor": "#FFFFFF",
+                  "bcolor_dark": "#242424",
+                  "bgcolor": "#FFFFFF",
+                  "bgcolor_dark": "#242424",
+                  "tcolor": "#0DBA23",
+                  "tcolor_dark": "#0DBA23",
+                  "text": "国家补贴",
+                  "type": "PUBLIC_SUBSIDIES"
+                }
+              ]
+            },
+            {
+              "goods_id": 886349,
+              "style_id": 193973188,
+              "title": "VICTOR 突击系列 TK-HAWK 白金小隼 进攻型 速度型 入门级 训练级 进阶级 杆硬 耐用 耐打 拍头重 碳纤维 羽毛球拍 珠光白",
+              "img": "http://static.shihuocdn.cn/goods/locrevise/20240711/76E86014AF3D4350BDDD7DF86BC54F3D_907x907.jpeg?imageView2/0/w/700/h/700/interlace/1",
+              "img_h": "1",
+              "img_w": "1",
+              "price": "409",
+              "official_price": "",
+              "sales_info": "2.7w人付款",
+              "root_category_id": 29,
+              "child_category_id": 601937,
+              "brand_name": "VICTOR/威克多",
+              "tags": null,
+              "labels": []
+            },
+            {
+              "goods_id": 3722605,
+              "style_id": 72811113,
+              "title": "MiuMiu 太阳镜 防紫外线醋酸纤维椭圆形太阳镜 0MU 11WE 黑色1AB5S0",
+              "img": "http://static.shihuocdn.cn/common/0a18aefb5d514c888a48edebc2a152d4.jpeg?imageView2/0/w/700/h/700/interlace/1",
+              "img_h": "1",
+              "img_w": "1",
+              "price": "1456",
+              "official_price": "",
+              "sales_info": "1227人付款",
+              "root_category_id": 59,
+              "child_category_id": 155,
+              "brand_name": "Miu Miu/缪缪",
+              "tags": null,
+              "labels": [
+                {
+                  "bcolor": "#FFFFFF",
+                  "bcolor_dark": "#242424",
+                  "bgcolor": "#FFFFFF",
+                  "bgcolor_dark": "#242424",
+                  "tcolor": "#0DBA23",
+                  "tcolor_dark": "#0DBA23",
+                  "text": "国家补贴",
+                  "type": "PUBLIC_SUBSIDIES"
+                }
+              ]
+            },
+            {
+              "goods_id": 4854227,
+              "style_id": 147371995,
+              "title": "李宁 利刃4 V2 篮球鞋 䨻科技聚氨酯大底全掌稳定减震回弹轻便网面透气防滑耐磨支撑实战轻量止滑内向比赛抗扭春夏防泼水 暗夜黑",
+              "img": "http://static.shihuocdn.cn/goods/locrevise/20240222/ca9802a8-d153-11ee-a3b4-ce1018bba9c7_1506x1506.jpeg?imageView2/0/w/700/h/700/interlace/1",
+              "img_h": "1",
+              "img_w": "1",
+              "price": "377",
+              "official_price": "",
+              "sales_info": "6.32w人付款",
+              "root_category_id": 8,
+              "child_category_id": 9,
+              "brand_name": "Li Ning/李宁",
+              "tags": null,
+              "labels": [
+                {
+                  "bcolor": "#FFFFFF",
+                  "bcolor_dark": "#242424",
+                  "bgcolor": "#FFFFFF",
+                  "bgcolor_dark": "#242424",
+                  "tcolor": "#BD814E",
+                  "tcolor_dark": "#A37C5A",
+                  "text": "近期收藏上千",
+                  "type": "GOODS_HOT"
+                }
+              ]
+            },
+            {
+              "goods_id": 3314831,
+              "style_id": 51294745,
+              "title": "Garmin/佳明 Forerunner255 马拉松骑行游泳跑步配速多频多功能科学训练心率血氧监测铁人三项防水蓝牙连接卫星定位运动电子男女同款智能手表 神秘灰",
+              "img": "http://static.shihuocdn.cn/goods/locrevise/20240605/1981C83F1E0C4615A1E64AD06AD0CC8D_1200x1200.jpeg?imageView2/0/w/700/h/700/interlace/1",
+              "img_h": "1",
+              "img_w": "1",
+              "price": "1003",
+              "official_price": "",
+              "sales_info": "7429人付款",
+              "root_category_id": 537,
+              "child_category_id": 101152,
+              "brand_name": "Garmin/佳明",
+              "tags": null,
+              "labels": [
+                {
+                  "bcolor": "#FFFFFF",
+                  "bcolor_dark": "#242424",
+                  "bgcolor": "#FFFFFF",
+                  "bgcolor_dark": "#242424",
+                  "tcolor": "#0DBA23",
+                  "tcolor_dark": "#0DBA23",
+                  "text": "国家补贴",
+                  "type": "PUBLIC_SUBSIDIES"
+                },
+                {
+                  "bcolor": "#FFFFFF",
+                  "bcolor_dark": "#242424",
+                  "bgcolor": "#FFFFFF",
+                  "bgcolor_dark": "#242424",
+                  "tcolor": "#BD814E",
+                  "tcolor_dark": "#A37C5A",
+                  "text": "销量飙升102%",
+                  "type": "GOODS_HOT"
+                },
+                {
+                  "bcolor": "#FFFFFF",
+                  "bcolor_dark": "#242424",
+                  "bgcolor": "#FFFFFF",
+                  "bgcolor_dark": "#242424",
+                  "tcolor": "#999999",
+                  "tcolor_dark": "#ABAFBE",
+                  "text": "6期免息",
+                  "type": "X_INTEREST_FREE"
+                }
+              ]
+            },
+            {
+              "goods_id": 1218648,
+              "style_id": 23568489,
+              "title": "JELLYCAT 毛绒玩具 动物系列 经典害羞胭脂 邦尼兔 毛绒玩具 奶油色",
+              "img": "http://static.shihuocdn.cn/goods/locrevise/20240830/8892673EF18F48A6988F8D4EE34B4938_750x750.jpeg?imageView2/0/w/700/h/700/interlace/1",
+              "img_h": "1",
+              "img_w": "1",
+              "price": "160",
+              "official_price": "",
+              "sales_info": "1.57w人付款",
+              "root_category_id": 458,
+              "child_category_id": 772,
+              "brand_name": "JELLYCAT",
+              "tags": null,
+              "labels": []
+            },
+            {
+              "goods_id": 954645,
+              "style_id": 18240669,
+              "title": "奥普帝蒙 进口版 乳清蛋白粉 罐装 健身增肌",
+              "img": "http://static.shihuocdn.cn/common/2c0c7151db2647e482acaa3a0cb0c824.jpeg?imageView2/0/w/700/h/700/interlace/1",
+              "img_h": "1",
+              "img_w": "1",
+              "price": "348",
+              "official_price": "",
+              "sales_info": "4.07w人付款",
+              "root_category_id": 601574,
+              "child_category_id": 601632,
+              "brand_name": "ON/奥普帝蒙",
+              "tags": null,
+              "labels": [
+                {
+                  "bcolor": "#FFFFFF",
+                  "bcolor_dark": "#242424",
+                  "bgcolor": "#FFFFFF",
+                  "bgcolor_dark": "#242424",
+                  "tcolor": "#BD814E",
+                  "tcolor_dark": "#A37C5A",
+                  "text": "近期浏览过万",
+                  "type": "GOODS_HOT"
+                }
+              ]
+            },
+            {
+              "goods_id": 8520999,
+              "style_id": 869180484,
+              "title": "九号 电动自行车 Fz3 110 TDT167Z 新国标 3C认证 智能 长续航 陡坡缓降 电动自行车 灰色",
+              "img": "http://static.shihuocdn.cn/common/54655b2a140b4a1c837c273f557410dd.jpeg?imageView2/0/w/700/h/700/interlace/1",
+              "img_h": "1",
+              "img_w": "1",
+              "price": "4599",
+              "official_price": "",
+              "sales_info": "49人付款",
+              "root_category_id": 101685,
+              "child_category_id": 101150,
+              "brand_name": "Ninebot/九号",
+              "tags": null,
+              "labels": []
+            },
+            {
+              "goods_id": 8951710,
+              "style_id": 1002656054,
+              "title": "Ulike 脱毛仪 Air20光子冰点脱毛仪 医用USHR私处专用无痛 冰雾紫",
+              "img": "http://static.shihuocdn.cn/common/353a0101db4f4c22836e3a43cf28826c.jpeg?imageView2/0/w/700/h/700/interlace/1",
+              "img_h": "1",
+              "img_w": "1",
+              "price": "1546",
+              "official_price": "",
+              "sales_info": "120人付款",
+              "root_category_id": 101718,
+              "child_category_id": 612,
+              "brand_name": "Ulike",
+              "tags": null,
+              "labels": [
+                {
+                  "bcolor": "#FFFFFF",
+                  "bcolor_dark": "#242424",
+                  "bgcolor": "#FFFFFF",
+                  "bgcolor_dark": "#242424",
+                  "tcolor": "#0DBA23",
+                  "tcolor_dark": "#0DBA23",
+                  "text": "国家补贴",
+                  "type": "PUBLIC_SUBSIDIES"
+                }
+              ]
+            },
+            {
+              "goods_id": 1466675,
+              "style_id": 29585116,
+              "title": "汾酒 青花20 500ml 53度 白酒 盒装",
+              "img": "http://static.shihuocdn.cn/common/d0d03ff880754189b4ad24c5a39cb0b6.jpeg?imageView2/0/w/700/h/700/interlace/1",
+              "img_h": "1",
+              "img_w": "1",
+              "price": "676",
+              "official_price": "",
+              "sales_info": "1w人付款",
+              "root_category_id": 495,
+              "child_category_id": 496,
+              "brand_name": "汾酒",
+              "tags": null,
+              "labels": [
+                {
+                  "bcolor": "#FFFFFF",
+                  "bcolor_dark": "#242424",
+                  "bgcolor": "#FFFFFF",
+                  "bgcolor_dark": "#242424",
+                  "tcolor": "#999999",
+                  "tcolor_dark": "#ABAFBE",
+                  "text": "500ml*2瓶",
+                  "type": "SPEC_NAME"
+                }
+              ]
+            },
+            {
+              "goods_id": 1618072,
+              "style_id": 34493608,
+              "title": "Walch/威露士 La系列 去污抑菌 松木香 洗衣液 瓶装",
+              "img": "http://static.shihuocdn.cn/goods/locrevise/20260425/2c847142-40fe-11f1-a56f-566ef7d2665f_940x940.jpeg?imageView2/0/w/700/h/700/interlace/1",
+              "img_h": "1",
+              "img_w": "1",
+              "price": "32.9",
+              "official_price": "",
+              "sales_info": "15.04w人付款",
+              "root_category_id": 101723,
+              "child_category_id": 925,
+              "brand_name": "Walch/威露士",
+              "tags": null,
+              "labels": [
+                {
+                  "bcolor": "#FFFFFF",
+                  "bcolor_dark": "#242424",
+                  "bgcolor": "#FFFFFF",
+                  "bgcolor_dark": "#242424",
+                  "tcolor": "#999999",
+                  "tcolor_dark": "#ABAFBE",
+                  "text": "3L*1瓶",
+                  "type": "SPEC_NAME"
+                }
+              ]
+            }
+          ],
+          "behaviorRecordData": {
+            "code": 0,
+            "status": 0,
+            "req_id": "4ca9f4319eebe0986f80abeec487463b",
+            "msg": "success",
+            "data": {
+              "id": 13196897
+            }
+          }
+        },
+        "behavior_record": {
+          "code": 0,
+          "status": 0,
+          "req_id": "4ca9f4319eebe0986f80abeec487463b",
+          "msg": "success",
+          "data": {
+            "id": 13196897
+          }
+        }
+      },
+      "deviceId": "8f690dd1-70c4-4384-ac90-898aa6fb2725",
+      "query": {},
+      "cookieU": "",
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+      "isMobileDevice": false
+    },
+    "__N_SSP": true
+  },
+  "page": "/pcHome",
+  "query": {},
+  "buildId": "SlRTuK2_ZSP6B0Xlzs5y1",
+  "assetPrefix": "https://front-static.shihuocdn.cn/sh-app-ssr",
+  "runtimeConfig": {
+    "assetPrefix": "https://front-static.shihuocdn.cn/sh-app-ssr",
+    "baseUrl": "https://m.shihuo.cn/page",
+    "basePcUrl": "https://www.shihuo.cn/page"
+  },
+  "isFallback": false,
+  "isExperimentalCompile": false,
+  "gssp": true,
+  "scriptLoader": []
+}

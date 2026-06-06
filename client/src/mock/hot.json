@@ -47,12 +47,12 @@
     "listName": "Latest News",
     "updatedAt": "2026-06-03T07:30:00.000Z",
     "items": [
-      { "rank": 1, "title": "Air Jordan 4 \"Military Blue\" Release Date", "url": "https://sneakernews.com/" },
-      { "rank": 2, "title": "Nike Air Max 1 \"Big Bubble\" Returns This Summer", "url": "https://sneakernews.com/" },
-      { "rank": 3, "title": "adidas Originals Samba Gets a Premium Suede Makeover", "url": "https://sneakernews.com/" },
-      { "rank": 4, "title": "New Balance 990v6 \"Grey\" Restock Confirmed", "url": "https://sneakernews.com/" },
-      { "rank": 5, "title": "Converse x Comme des Garçons PLAY Chuck 70", "url": "https://sneakernews.com/" },
-      { "rank": 6, "title": "Puma Speedcat OG \"Red\" Official Images", "url": "https://sneakernews.com/" }
+      { "rank": 1, "title": "Air Jordan 4「Military Blue」发售日期", "titleOriginal": "Air Jordan 4 \"Military Blue\" Release Date", "url": "https://sneakernews.com/" },
+      { "rank": 2, "title": "Nike Air Max 1「Big Bubble」今夏回归", "titleOriginal": "Nike Air Max 1 \"Big Bubble\" Returns This Summer", "url": "https://sneakernews.com/" },
+      { "rank": 3, "title": "adidas Originals Samba 推出高级麂皮新版本", "titleOriginal": "adidas Originals Samba Gets a Premium Suede Makeover", "url": "https://sneakernews.com/" },
+      { "rank": 4, "title": "New Balance 990v6「灰色」确认补货", "titleOriginal": "New Balance 990v6 \"Grey\" Restock Confirmed", "url": "https://sneakernews.com/" },
+      { "rank": 5, "title": "Converse x Comme des Garçons PLAY Chuck 70 联名款", "titleOriginal": "Converse x Comme des Garçons PLAY Chuck 70", "url": "https://sneakernews.com/" },
+      { "rank": 6, "title": "Puma Speedcat OG「红色」官方图曝光", "titleOriginal": "Puma Speedcat OG \"Red\" Official Images", "url": "https://sneakernews.com/" }
     ]
   },
   {
@@ -61,12 +61,12 @@
     "listName": "Footwear",
     "updatedAt": "2026-06-03T07:45:00.000Z",
     "items": [
-      { "rank": 1, "title": "Nike and NOCTA Reunite for New Air Force 1 Collection", "url": "https://hypebeast.com/" },
-      { "rank": 2, "title": "Salomon Expands XT-6 Lineup With New Colorways", "url": "https://hypebeast.com/" },
-      { "rank": 3, "title": "JJJJound x New Balance 992 Release Info", "url": "https://hypebeast.com/" },
-      { "rank": 4, "title": "A Ma Maniére x Air Jordan 5 \"Black\" Detailed Look", "url": "https://hypebeast.com/" },
-      { "rank": 5, "title": "CLOT x Nike Air Max DN Official Announcement", "url": "https://hypebeast.com/" },
-      { "rank": 6, "title": "Birkenstock 1774 Collection Gets High-Fashion Update", "url": "https://hypebeast.com/" }
+      { "rank": 1, "title": "Nike 与 NOCTA 再度联手推出全新 Air Force 1 系列", "titleOriginal": "Nike and NOCTA Reunite for New Air Force 1 Collection", "url": "https://hypebeast.com/" },
+      { "rank": 2, "title": "Salomon 扩充 XT-6 阵容，推出全新配色", "titleOriginal": "Salomon Expands XT-6 Lineup With New Colorways", "url": "https://hypebeast.com/" },
+      { "rank": 3, "title": "JJJJound x New Balance 992 发售信息", "titleOriginal": "JJJJound x New Balance 992 Release Info", "url": "https://hypebeast.com/" },
+      { "rank": 4, "title": "A Ma Maniére x Air Jordan 5「黑色」细节一览", "titleOriginal": "A Ma Maniére x Air Jordan 5 \"Black\" Detailed Look", "url": "https://hypebeast.com/" },
+      { "rank": 5, "title": "CLOT x Nike Air Max DN 官方宣布", "titleOriginal": "CLOT x Nike Air Max DN Official Announcement", "url": "https://hypebeast.com/" },
+      { "rank": 6, "title": "Birkenstock 1774 系列迎来高端时尚升级", "titleOriginal": "Birkenstock 1774 Collection Gets High-Fashion Update", "url": "https://hypebeast.com/" }
     ]
   },
   {
@@ -75,12 +75,12 @@
     "listName": "Top Stories",
     "updatedAt": "2026-06-03T07:50:00.000Z",
     "items": [
-      { "rank": 1, "title": "Where to Buy the Nike Dunk Low \"Panda\" Restock", "url": "https://www.nicekicks.com/" },
-      { "rank": 2, "title": "Best Sneaker Releases This Week", "url": "https://www.nicekicks.com/" },
-      { "rank": 3, "title": "Kobe Brand Continues Legacy With New Protro Models", "url": "https://www.nicekicks.com/" },
-      { "rank": 4, "title": "Yeezy Slide Restock: Everything You Need to Know", "url": "https://www.nicekicks.com/" },
-      { "rank": 5, "title": "How to Style Air Jordan 1 Low for Summer", "url": "https://www.nicekicks.com/" },
-      { "rank": 6, "title": "Sneaker Resale Market Trends in 2026", "url": "https://www.nicekicks.com/" }
+      { "rank": 1, "title": "Nike Dunk Low「熊猫」补货购买指南", "titleOriginal": "Where to Buy the Nike Dunk Low \"Panda\" Restock", "url": "https://www.nicekicks.com/" },
+      { "rank": 2, "title": "本周最佳球鞋发售一览", "titleOriginal": "Best Sneaker Releases This Week", "url": "https://www.nicekicks.com/" },
+      { "rank": 3, "title": "Kobe 品牌以全新 Protro 型号延续传奇", "titleOriginal": "Kobe Brand Continues Legacy With New Protro Models", "url": "https://www.nicekicks.com/" },
+      { "rank": 4, "title": "Yeezy Slide 补货：你需要知道的一切", "titleOriginal": "Yeezy Slide Restock: Everything You Need to Know", "url": "https://www.nicekicks.com/" },
+      { "rank": 5, "title": "夏季如何搭配 Air Jordan 1 Low", "titleOriginal": "How to Style Air Jordan 1 Low for Summer", "url": "https://www.nicekicks.com/" },
+      { "rank": 6, "title": "2026 年球鞋转售市场趋势", "titleOriginal": "Sneaker Resale Market Trends in 2026", "url": "https://www.nicekicks.com/" }
     ]
   }
 ]

@@ -7,28 +7,31 @@ interface HotCardProps {
   updatedAt?: string;
   loading?: boolean;
   error?: boolean;
+  isDemo?: boolean;
   onRetry?: () => void;
 }
 
 const SKELETON_ROWS = 6;
 
-/** 根据 ISO 时间计算相对时间（距今多久） */
-function formatRelativeTime(iso: string): string {
-  const date = new Date(iso);
-  if (Number.isNaN(date.getTime())) {
-    return '未知';
+/** 根据 ISO 时间计算相对时间，供页脚「更新于 …」使用 */
+function formatRelativeTime(iso?: string): string {
+  if (!iso?.trim()) {
+    return '刚刚';
   }
 
-  const diffMs = Date.now() - date.getTime();
+  const date = new Date(iso);
+  if (Number.isNaN(date.getTime())) {
+    return '刚刚';
+  }
+
+  const diffMs = Math.max(0, Date.now() - date.getTime());
   const diffMin = Math.floor(diffMs / 60000);
 
   if (diffMin < 1) return '刚刚';
   if (diffMin < 60) return `${diffMin} 分钟前`;
 
   const diffHour = Math.floor(diffMin / 60);
-  if (diffHour < 24) return `${diffHour} 小时前`;
-
-  return date.toLocaleString('zh-CN');
+  return `${diffHour} 小时前`;
 }
 
 function getRankClass(rank: number): string {
@@ -60,6 +63,7 @@ export default function HotCard({
   updatedAt: updatedAtProp,
   loading = false,
   error = false,
+  isDemo = false,
   onRetry,
 }: HotCardProps) {
   const { source, sourceName, listName, items, message } = platform;
@@ -102,14 +106,27 @@ export default function HotCard({
             <span className={`${styles.rank} ${getRankClass(item.rank)}`}>
               {item.rank}
             </span>
-            <a
-              className={styles.link}
-              href={item.url}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {item.title}
-            </a>
+            {item.titleOriginal ? (
+              <span className={styles.linkWrap} data-tooltip={item.titleOriginal}>
+                <a
+                  className={styles.link}
+                  href={item.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {item.title}
+                </a>
+              </span>
+            ) : (
+              <a
+                className={styles.link}
+                href={item.url}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {item.title}
+              </a>
+            )}
             {item.heat && <span className={styles.heat}>{item.heat}</span>}
           </li>
         ))}
@@ -119,6 +136,7 @@ export default function HotCard({
 
   return (
     <article className={styles.card}>
+      {isDemo && <span className={styles.demoBadge}>演示</span>}
       <header className={styles.header}>
         <h2 className={styles.platformName}>{sourceName}</h2>
         <p className={styles.listName}>{listName}</p>
